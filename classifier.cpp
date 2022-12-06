@@ -3,14 +3,23 @@
 
 int train();
 
+int predict();
+
 int main()
 {
 	train();
+
+	predict();
 }
 
 int train()
 {
 	printf("Train");
+}
+
+int predict()
+{
+	printf("Predict");
 }
 
 
